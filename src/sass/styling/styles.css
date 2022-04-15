@@ -1,0 +1,161 @@
+* {
+  text-align: left;
+}
+
+header.page-header {
+  /*padding-bottom: 50px;*/
+}
+
+.footer-cus {
+  padding: 90px 20px 30px 17rem;
+}
+
+.sidenav-toggled footer {
+  margin-left: -15rem;
+}
+
+#active-table_length {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#active-table_length select {
+  height: 44px;
+  padding-left: 1.125rem;
+  padding-right: 0.125rem;
+  margin-right: 0.25rem;
+  border: 1px solid #c5ccd6;
+  border-radius: 0.35rem;
+  width: 72px;
+}
+
+#active-table_length select:focus {
+  color: #69707a;
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem #0061f240;
+          box-shadow: 0 0 0 0.25rem #0061f240;
+}
+
+#active-table_filter {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#active-table_filter label {
+  color: transparent;
+}
+
+#active-table_filter input {
+  height: 44px;
+  padding-left: 1.125rem;
+  padding-right: 0.125rem;
+  margin-right: 0.25rem;
+  border: 1px solid #c5ccd6;
+  border-radius: 0.35rem;
+}
+
+#active-table_filter input:focus {
+  color: #69707a;
+  background-color: #fff;
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem #0061f240;
+          box-shadow: 0 0 0 0.25rem #0061f240;
+}
+
+#active-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #69707a;
+  vertical-align: top;
+  border-color: #e0e5ec;
+}
+
+#active-table thead tr th {
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #e0e5ec;
+  cursor: pointer;
+}
+
+#active-table tbody tr td {
+  vertical-align: top;
+  padding: 0.75rem 0.75rem;
+  border: 1px solid #e0e5ec;
+}
+
+#active-table tbody tr td button {
+  height: 20px !important;
+  width: 20px !important;
+  font-size: 0.75rem;
+  padding: 2px !important;
+  border-radius: 0.35rem !important;
+}
+
+#active-table tbody tr .dataTables_empty {
+  text-align: center;
+}
+
+.card-header {
+  padding: 1rem 1.35rem !important;
+}
+
+#active-table_info,
+#active-table_paginate {
+  display: none;
+}
+
+.error-message {
+  color: red !important;
+  font-size: 14px;
+}
+
+.center-content {
+  padding-top: 100px !important;
+  min-height: calc(100vh -  5rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .footer-cus {
+    padding: 90px 20px 30px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-xl.px-4.text-start {
+    padding: 0 !important;
+  }
+  .footer-cus {
+    padding: 90px 0px 30px 0rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-cus .small {
+    text-align: center;
+  }
+  .card-icon .card-icon-aside {
+    padding: 1rem;
+  }
+  #active-table_filter,
+  #active-table_length {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=FAQStyles.css.map */

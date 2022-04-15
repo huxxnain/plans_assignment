@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+.cardSelect{
+  border: 1px solid red !important;
+}
+
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+.pricing8 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.pricing8 h1,
+.pricing8 h2,
+.pricing8 h3,
+.pricing8 h4,
+.pricing8 h5,
+.pricing8 h6 {
+  color: #3e4555;
+}
+
+.pricing8 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.pricing8 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.pricing8 .display-5 {
+  font-size: 3rem;
+}
+
+.pricing8 .font-14 {
+  font-size: 14px;
+}
+
+.pricing8 .pricing-box sup {
+  top: -20px;
+  font-size: 16px;
+}
+.banner{
+  height: 500px;
+}
+.pricing8 .btn-info-gradiant {
+  background: #188ef4;
+  background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+  background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.pricing8 .btn-info-gradiant:hover {
+  background: #316ce8;
+  background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+  background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+  background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+  background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.pricing8 .btn-danger-gradiant {
+  background: #ff4d7e;
+  background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+  background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+.pricing8 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+  background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.header-container {
+  position: absolute;
+  top: 0;
+  padding: 1rem 3rem;
+}
+.header-container a {
+  text-decoration: none;
+}
+
+.image-style {
+  text-align: center !important;
+}
+
+.foot-customStyle {
+  text-align-last: center !important;
+}
+
+.nav-link.active {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.custom-footer{
+  text-align-last: center !important;
+  margin-bottom: 20px;
+}
+
+.footer-style{
+  margin-bottom: 2rem !important;
+}
+
+.custom-timePicker {
+  background-clip: padding-box !important;
+  background-color: #fff !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  color: #212529 !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  padding: 0.375rem 0.75rem !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+  width: 100% !important;
+}
+
+.cardDiv-disabled{
+  pointer-events: none !important;
+  opacity: 0.6 !important;
+}
+.main-amount {
+  position: relative;
+}
+
+.prefix-cus {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  font-size: 16px;
+  color: #81757d;
+}
+.main-amount input {
+  padding-left: 25px;
+}
+
+.sv-root-modern {
+  margin-bottom: 3rem !important;
+}
+
+.css-kud8pv {
+  position: relative !important;
+  left: 50% !important;
+}
+
+/*.svc-side-bar__container {*/
+/*  display: none;*/
+/*  position: relative;*/
+/*  font-family: var(--font-family);*/
+/*  min-width: 370px;*/
+/*  max-width: calc(118 * var(--base-unit, 8px));*/
+/*  width: 450px;*/
+/*  height: 100%;*/
+/*}*/
