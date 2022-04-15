@@ -204,12 +204,12 @@ const SignIn = () => {
                                                                         >
                                                                             {isLoading ? "Please wait..." : "Log In"}
                                                                         </button>
-                                                                        <GoogleLogin
+                                                                        {/* <GoogleLogin
                                                                             clientId="553547714480-n5a3q4rg3d36o30die2b2i92ksm2dksm.apps.googleusercontent.com"
                                                                             buttonText="Google Sign In"
                                                                             onSuccess={onSuccess}
                                                                             cookiePolicy={"single_host_origin"}
-                                                                        />
+                                                                        /> */}
                                                                     </div>
                                                                     <div className="mb-4 mt-1">
                                                                         <div className="small text-gray-600 mt-1 text-center">
