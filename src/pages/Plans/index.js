@@ -54,7 +54,7 @@ const Plans = () => {
  console.log("values" , values);
  const id = values.id;
  const _id = currentUser._id;
- const {data} = await axios.patch(`http://localhost:8000/api/v1/users/${_id}/updatePlan/${id}`);
+ const {data} = await axios.patch(`https://planappsyedahsan.herokuapp.com/api/v1/users/${_id}/updatePlan/${id}`);
  console.log("data" , data)
  LocalStorage.setUserData(data.data.user);
  dispatch(setUser(data.data.user));
